@@ -618,7 +618,7 @@ class DiceCoefficient(TensorMetric):
                          reduce_group=reduce_group,
                          reduce_op=reduce_op)
 
-        self.include_backgroud = include_background
+        self.include_background = include_background
         self.nan_score = nan_score
         self.no_fg_score = no_fg_score
         self.reduction = reduction
